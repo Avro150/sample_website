@@ -1,0 +1,63 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../gym.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.main{
+	margin: 150px auto 0 auto;
+	width: 400px;
+}
+h2{
+	text-align: center;
+	padding: 20px;
+	font-family: sans-serif;
+	color: white;
+}
+
+.form{
+	background-color: rgba(0,0,0,0.5);
+	width: 100%;
+	font-size: 18px;
+	color: white;
+	border: 1px solid transparent;
+	border-radius: 15px;
+}
+
+#resister{
+	margin: 40px;
+}
+
+label{
+	font-size: 18px;
+	font-style: italic;
+}
+
+#input{
+	width: 300px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 5px;
+}
+
+#submit{
+	width: 170px;
+	font-size: 15px;
+	padding: 7px;
+	font-family: sans-serif;
+	border-radius: 3px;
+	background-color: #4682B4;
+	border: 1px solid transparent;
+}
+
+#submit:hover{
+	background-color: white;
+	color: black;
+}
